@@ -12,5 +12,5 @@ RUN apk -v --update --no-cache add \
         zip \
         tar \ 
         jq \
-
-RUN pip install awscli
+        && \
+        pip install --upgrade awscli
