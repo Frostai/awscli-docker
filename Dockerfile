@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker:latest
 
 RUN apk -v --update --no-cache add \
         python3 \
