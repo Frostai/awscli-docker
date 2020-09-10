@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk -v --update --no-cache add \
-        python \
+        python3 \
         py-pip \
         ca-certificates \
         curl \
