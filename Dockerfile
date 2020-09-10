@@ -3,7 +3,7 @@ FROM alpine:latest
 RUN apk -v --update --no-cache add \
         python3 \
         py-pip \
-        docker \
+        docker-cli \
         ca-certificates \
         curl \
         git \
