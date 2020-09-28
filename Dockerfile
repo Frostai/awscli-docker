@@ -1,5 +1,4 @@
 FROM docker:latest
-RUN add-apt-repository ppa:openjdk-r/ppa
 
 RUN apk -v --update --no-cache add \
         python3 \
