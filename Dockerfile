@@ -5,6 +5,7 @@ RUN apk -v --update --no-cache add \
         py-pip \
         docker-cli \
         ca-certificates \
+        maven \
         curl \
         git \
         gzip \
